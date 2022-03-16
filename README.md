@@ -2,8 +2,7 @@
 Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii. 
 SCFO 22-1-B
 
-Nous allons réaliser des simulations de tsunamis, afin de traiter la problématique suivante: 
-  Comment limiter les dégâts sur un milieu habité suite au passage d'un tsunami?
+Nous allons réaliser des simulations de tsunamis, afin de traiter la problématique suivante:                                                                        Comment limiter les dégâts sur un milieu habité suite au passage d'un tsunami?
 
 
 
