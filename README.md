@@ -1,5 +1,5 @@
 # SimTsuna
-Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii. 
+Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii.  
 SCFO 22-1-B
 
 Nous allons réaliser des simulations de tsunamis, afin de traiter la problématique suivante:                                                                     
@@ -17,7 +17,7 @@ Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un
 
 
 # Hypothèses: 
--Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeurs à des endroits "stratégiques".	
+-Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeur à des endroits "stratégiques".	
 
 
 -Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
@@ -27,8 +27,8 @@ Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un
 
 
 # Objectifs:
--étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis
-    >étudier leurs intérêt et le fonctionnement
+-Étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis.
+    >étudier leurs intérêts et leurs fonctionnements.
     
     
 -Chercher une meilleure solution ? 
@@ -38,14 +38,14 @@ Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un
 
 
 # Critères d’évaluation:
--taux de destructions de la ville après le passage du tsunami.
+-Taux de destruction de la ville après le passage du tsunami.
 
 
--taux de population ayant survécu. 
+-Taux de la population ayant survécu. 
 
 
 -Infrastructures encore fonctionnelles.
 
 
--budget restant pour reconstruire.
+-Budget restant pour reconstruire.
 	
