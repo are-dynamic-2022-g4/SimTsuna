@@ -15,21 +15,21 @@ Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un
 
 
 # Hypothèses: 
-	-Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeurs à des endroits "stratégiques".	 
-	-Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
-	-Il est moins coûteux de prévenir en investissant dans des défenses contre les tsunamis que de reconstruire suite à la destruction causée par ceux-ci.
+-Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeurs à des endroits "stratégiques".	 
+-Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
+-Il est moins coûteux de prévenir en investissant dans des défenses contre les tsunamis que de reconstruire suite à la destruction causée par ceux-ci.
 
 
 # Objectifs:
-	-étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis
-	    >étudier leurs intérêt et le fonctionnement
-	-Chercher une meilleure solution ? 
-	-Comprendre comment les tsunamis sont provoqués.
+-étudier les sytèmes de préventions et les mesures actuelles face aux tsunamis
+    >étudier leurs intérêt et le fonctionnement
+-Chercher une meilleure solution ? 
+-Comprendre comment les tsunamis sont provoqués.
 
 
 # Critères d’évaluation:
-	-taux de destructions de la ville après le passage du tsunami.
-	-taux de population ayant survécu. 
-	-Infrastructures encore fonctionnelles.
-  	-budget restant pour reconstruire.
+-taux de destructions de la ville après le passage du tsunami.
+-taux de population ayant survécu. 
+-Infrastructures encore fonctionnelles.
+-budget restant pour reconstruire.
 	
