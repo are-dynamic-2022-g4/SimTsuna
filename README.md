@@ -8,12 +8,10 @@ Nous allons réaliser des simulations de tsunamis, afin de traiter la problémat
 
 
 # Thème: 
-	Dégât matériels et humains suite au passage d'un Tsunami. \n\n\n\n\n\n\n\n\n
-	\n
-
+Dégât matériels et humains suite au passage d'un Tsunami. 
 
 # Problématique: 
-	Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un budget? 
+Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un budget? 
 
 
 # Hypothèses: 
