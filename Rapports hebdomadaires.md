@@ -41,7 +41,7 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
         coords: coordonnée du batiment   (permet de calculer la distance euclidienne par rapport à l'épicentre de la vague)
                 <=> et quand la vague va tapper ces coordonnées
         
-        """
+  """
   
   -Avoir une matrice différente pour les civils, que l'on pourra superposer avec la matrice de la ville pour "tuer" des gens quand un immeuble est détruit.  
   Chaque case aura un objet de classe civil:
