@@ -33,7 +33,7 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
   -Avoir une matrice représentant la ville, avec  chaque élément de cette matrice étant un objet de la classe 
   batiment(self,types:int , resistance:int, hauteur:int, etat:float, coords:tuple ): #altitude.
   
-  """
+
         
         types: 0-10 : représente le type de batiment à des coordonnes fixées (déterminera partiellement (avec hauteur)la safety des civils)
         
@@ -46,25 +46,25 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
         coords: coordonnée du batiment   (permet de calculer la distance euclidienne par rapport à l'épicentre de la vague)
                 <=> et quand la vague va tapper ces coordonnées
         
-  """
+
   
   -Avoir une matrice différente pour les civils, que l'on pourra superposer avec la matrice de la ville pour "tuer" des gens quand un immeuble est détruit.  
   Chaque case aura un objet de classe civil:
   Civil(qté:int,etat:float,coords:tuple)
   
-  """
+
     
     qté représente la qté de civil dans la zone (case) 
     
     etat représente le pourcentage de bléssés/morts
     
     coords permet de définir la zone étudié
-  """
+
   
   -Avoir une matrice pour la vague, ayant par case des éléments de la classe Vague:
   Vague(self, magnitude:int, hauteur:int, epicentre:tuple )
   
-    """
+
         
         hauteur: hauteur en mètres du batiment (permet de voir si l'endroit est safe pour les civils || si il va être détruit par la vague à 100% 
         (rapport de taille))
@@ -72,7 +72,7 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
         epicentre: (coords) permet d'étudier la propagation initiale, et les distances euclidiennes par rapport à un endroit donnée
         
         magnitude: int(0-9) respectant l'échelle (permet de déterminer la "puissance" initiale du tsunami )
-   """
+
 
 
 
