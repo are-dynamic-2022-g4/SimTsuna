@@ -20,8 +20,46 @@ Nous hésitons encore sur le language de programmation, nous préférrons évide
 
 
 
+# Semaine du 21 mars au 27 mars
 
 
+Cette semaine nous avons commencé à coder.
+Nous allons donc dans un premier temps mettre en place une "base", en codant une version simplifié de ce que l'on veut faire. 
+Pour ce faire, nous allons chacun coder de nôtre côté, puis nous mettrons en commun et adopteront la méthode qui nous satisfait le plus.
+
+L'idée de base pour cette "beta" serait d'implémenter le système suivant:
+-3 matrices interagissant entre elles pour au final retourner une matrice avec différentes informations telles que le taux de destruction de la ville, de survivant... on pourra ensuite calculer des moyennes et données. 
+  
+  -Avoir une matrice représentant la ville, avec  chaque élément de cette matrice étant un objet de la classe 
+  batiment(self,types:int , resistance:int, hauteur:int, etat:float, coords:tuple ): #altitude.
+  
+  """
+        types: 0-10 : représente le type de batiment à des coordonnes fixées (déterminera partiellement (avec hauteur)la safety des civils)
+        resistance: échelle 0-10 en fonction des normes de résistances fixées
+        hauteur: hauteur en mètres, permet de savoir si les civils sont safe ici (doit être cohérent avec le type)
+        etat : pourcentage du taux de destruction (update après meeting) ++ dégât post vague
+        coords: coordonnée du batiment   (permet de calculer la distance euclidienne par rapport à l'épicentre de la vague)
+                <=> et quand la vague va tapper ces coordonnées
+        
+        """
+  
+  -Avoir une matrice différente pour les civils, que l'on pourra superposer avec la matrice de la ville pour "tuer" des gens quand un immeuble est détruit.  
+  Chaque case aura un objet de classe civil:
+  Civil(qté:int,etat:float,coords:tuple)
+  """
+    qté représente la qté de civil dans la zone (case) 
+    etat représente le pourcentage de bléssés/morts
+    coords permet de définir la zone étudié
+  """
+  
+  -Avoir une matrice pour la vague, ayant par case des éléments de la classe Vague:
+  Vague(self, magnitude:int, hauteur:int, epicentre:tuple )
+    """
+        hauteur: hauteur en mètres du batiment (permet de voir si l'endroit est safe pour les civils || si il va être détruit par la vague à 100% 
+        (rapport de taille))
+        epicentre: (coords) permet d'étudier la propagation initiale, et les distances euclidiennes par rapport à un endroit donnée
+        magnitude: int(0-9) respectant l'échelle (permet de déterminer la "puissance" initiale du tsunami )
+   """
 
 
 
