@@ -34,6 +34,7 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
   batiment(self,types:int , resistance:int, hauteur:int, etat:float, coords:tuple ): #altitude.
   
   """
+        
         types: 0-10 : représente le type de batiment à des coordonnes fixées (déterminera partiellement (avec hauteur)la safety des civils)
         
         resistance: échelle 0-10 en fonction des normes de résistances fixées
@@ -52,8 +53,11 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
   Civil(qté:int,etat:float,coords:tuple)
   
   """
+    
     qté représente la qté de civil dans la zone (case) 
+    
     etat représente le pourcentage de bléssés/morts
+    
     coords permet de définir la zone étudié
   """
   
@@ -61,9 +65,12 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
   Vague(self, magnitude:int, hauteur:int, epicentre:tuple )
   
     """
+        
         hauteur: hauteur en mètres du batiment (permet de voir si l'endroit est safe pour les civils || si il va être détruit par la vague à 100% 
         (rapport de taille))
+        
         epicentre: (coords) permet d'étudier la propagation initiale, et les distances euclidiennes par rapport à un endroit donnée
+        
         magnitude: int(0-9) respectant l'échelle (permet de déterminer la "puissance" initiale du tsunami )
    """
 
