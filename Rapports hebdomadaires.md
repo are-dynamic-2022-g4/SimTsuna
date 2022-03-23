@@ -35,9 +35,13 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
   
   """
         types: 0-10 : représente le type de batiment à des coordonnes fixées (déterminera partiellement (avec hauteur)la safety des civils)
+        
         resistance: échelle 0-10 en fonction des normes de résistances fixées
+        
         hauteur: hauteur en mètres, permet de savoir si les civils sont safe ici (doit être cohérent avec le type)
+        
         etat : pourcentage du taux de destruction (update après meeting) ++ dégât post vague
+        
         coords: coordonnée du batiment   (permet de calculer la distance euclidienne par rapport à l'épicentre de la vague)
                 <=> et quand la vague va tapper ces coordonnées
         
