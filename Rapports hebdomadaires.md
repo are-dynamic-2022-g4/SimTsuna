@@ -73,6 +73,14 @@ L'idée de base pour cette "beta" serait d'implémenter le système suivant:
         
         magnitude: int(0-9) respectant l'échelle (permet de déterminer la "puissance" initiale du tsunami )
 
+# Semaine du 28 mars au 03 avril
+
+Partie rust réalisée par Philippe : 
+During this week we've started working on the fluid simulation part of the project. We will use a lattice Boltzmann method, modified to support free-surface fluid simulations. For now, the simulation cannot handle collisions and free surfaces.
+
+Fluid information is stored in a D3Q27 lattice.
+
+Partie python: 
 
 
 
