@@ -10,14 +10,14 @@ Comment limiter les dégâts sur un milieu habité suite au passage d'un tsunami
 
 
 # Thème: 
-Dégât matériels et humains suite au passage d'un Tsunami. 
+Étude des dégât matériels et humains suite au passage d'un Tsunami. 
 
 # Problématique: 
 Comment limiter les dégâts d'un tsunami sur un espace habité étant donné un budget? 
 
 
 # Hypothèses: 
--Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeur à des endroits "stratégiques".	
+-Il est possible de "briser" la vague au large, peut-être en construisant des infrastructures réduisant la profondeur à des endroits "stratégiques". Cela permettrait de faire en sorte que la vague se "crash" avant d'arriver à la côte et donc de protéger les populations.	
 
 
 -Les mesures de préventions actuelles ne sont pas efficaces face aux tsunamis.
