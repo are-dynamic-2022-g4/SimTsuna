@@ -86,6 +86,12 @@ Partie python réalisée par Hugo :
 Un programme permettant pour l'instant d'initialiser les différentes matrices avec les classes correspondantes pour les batiments, la vague et les civils. L'idée actuelle était de réaliser la vague sur une autre matrice permettant de mettre en place la profondeur de la mer puis ensuite faire la "collision" avec la matrice batiments. 
 l'étape suivante serait de réaliser une fonction simulant la collision et la propagation de la vague dans la ville. 
 
+# Semaine du 04 avril au 10 avril
+
+
+
+# Semaine du 11 avril au 17 avril
+
 
 
 
