@@ -6,9 +6,9 @@ Ensuite il a fallu faire des recherches dans le cadre de la séance biblio.
 Nous avons trouvé beaucoup d'informations intéressantes à travers le net, et nous avons insisté particulièrement sur l'aspect préventif, des mesures mises en place face à ces catastrophes ainsi que les dégâts causés par les tsunamis.
 
 
-Cette semaine, nous avons décidé de la forme "béta"// le prototype de notre projet.
+Cette semaine, nous avons décidé de commencer la forme "béta"// le prototype de notre projet.
 
-Il a été décidé que la simulation consistera 
+
 Nous comptons mettre en place une grille de vecteur (probablement une classe ayant la force et la direction du vecteur) afin de simuler la vague (en simulant le courant et la puissance du tsunami). Ces vecteurs vont en premier lieu rentrer en contact avec des formes qui représenteront les infrastructures que l'on souhaite tester afin de limiter les dégâts. Dans un deuxième temps, la vague rentrera en contact avec la ville/village, causant des dégâts ou non. À terme, nous analyserons les résultats obtenus (nombre de survivants, taux de destructions, budget restant, infrastructures encore fonctionnelles) l'utilisateur pourra en déduire l'efficacité des défences testées. 
 
 
@@ -87,6 +87,7 @@ Partie python réalisée par Hugo :
 Un programme permettant d'initialiser 5 matrices différentes.
 Les 4 premières sont mise bout à bout:
 -La première celle de la ville, il s'agit de représenter une ville avec les éléments de la classe batiment. 
+    
 -Sur les mêmes dimensions, celle des civils, dans lesquels on stocke les civils à certaines coordonnées. 
 -Création d'un littoral à taille variable, sur lequel on pourra venir construire des défenses.
 -Une mer, avec différentes profondeurs générés selons les paramètres tailles et profondeur max 
