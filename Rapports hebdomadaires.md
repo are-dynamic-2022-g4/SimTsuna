@@ -99,26 +99,28 @@ la 5 eme matrice serait idéalement :
 L'étape suivante serait d'implémenter une telle matrice, et de créer une fonction simulant la collision et la propagation de la vague dans la ville. 
 
 # Semaine du 04 avril au 10 avril
-Le code a pris forme, il faut maintenant implémenter les collisions.
 
--Début de l'implémentation des calculs, il faut donc trouver un moyen d'éxecuter les collisions, et en définir les paramètres.
--Cependant ce n'est pas simple, car la physique(pour l'amplitude, la masse, la vitesse, les longueurs d'ondes...) des vagues est très variable et complexe. Il faudra donc simplifier énormément le système... 
--De plus, nous n'avons pas trouvé de "norme anti-tsunami" comme il en existe pour les avalanches et séisme, c'est un gros hic car il n'y a donc pas de données concrète de résistance, il faut donc les calculer nous mêmes... (:c)
-Donc recherche de formules...
+-Le code a pris forme, il faut maintenant implémenter les collisions.
+
+    -Début de l'implémentation des calculs, il faut donc trouver un moyen d'éxecuter les collisions, et en définir les paramètres.
+    -Cependant ce n'est pas simple, car la physique(pour l'amplitude, la masse, la vitesse, les longueurs d'ondes...) des vagues est très variable et complexe. Il faudra donc simplifier énormément le système... 
+    -De plus, nous n'avons pas trouvé de "norme anti-tsunami" comme il en existe pour les avalanches et séisme, c'est un gros hic car il n'y a donc pas de données concrète de résistance, il faut donc les calculer nous mêmes... (:c)
+    Donc recherche de formules...
 
 
 
 # Semaine du 11 avril au 17 avril
-Petite mise au point du projet:
+-Petite mise au point du projet:
 
--Pour la vague nous allons donner les propriétés de la vague (hauteur, vitesse...)  en fonction de sa magnitude, selon l'échelle de Imamura.
--Avec ces données nous pouvons déterminer l'Energie de la vague, avec laquelle on pense pouvoir trouver des formules pour la collision... (on espère !) 
+    -Pour la vague nous allons donner les propriétés de la vague (hauteur, vitesse...)  en fonction de sa magnitude, selon l'échelle de Imamura.
+    -Avec ces données nous pouvons déterminer l'Energie de la vague, avec laquelle on pense pouvoir trouver des formules pour la collision... (on espère !) 
 
 
-Réalisations:
--Recherche formule collision
--implémentation d'une fonction de collision
--Réalisation du rapport sur le "site"
+  -Réalisations:
+  
+            -Recherche formule collision
+            -implémentation d'une fonction de collision
+            -Réalisation du rapport sur le "site"
 
 
 
