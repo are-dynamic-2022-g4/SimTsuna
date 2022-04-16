@@ -123,6 +123,13 @@ L'étape suivante serait d'implémenter une telle matrice, et de créer une fonc
             -implémentation d'une fonction de collision
             -Réalisation du rapport sur le "site"
 
+Retappage du code python en une version plus claire, il n'y a désormais plus que 3 matrice,
+
+    -1 grande matrice environnement avec la ville, le littoral et la mer,
+    -une matrice des civils, de même dimensions que la ville, les civils sont placé où il y a des bâtiments
+    -une matrice vague, où on stocke les informations de la vague pour chaque coordonnées.
+
+
 
 
 
