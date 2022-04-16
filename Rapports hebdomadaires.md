@@ -94,7 +94,7 @@ Les 4 premières sont mise bout à bout:
 
 la 5 eme matrice serait idéalement :
 -de la taille toute les matrices mise bout à bout
--Permet de stocker dans chaque cases les infos de la vague à cet endroit, selon des calculs fait (magnitude,vitesse,hauteur,force,distance_epicentre, collisions...)
+-Permet de stocker dans chaque cases les infos théoriques de la vague à telles coordonnées, selon des calculs fait (magnitude,vitesse,hauteur,force,distance_epicentre) que l'on va recaculer apres chaque collision.
 
 
 L'étape suivante serait d'implémenter une telle matrice, et de créer une fonction simulant la collision et la propagation de la vague dans la ville. 
