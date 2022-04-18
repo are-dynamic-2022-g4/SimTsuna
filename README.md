@@ -1,3 +1,7 @@
+Les choses intéréssantes se passent sur l'autre répo (SimtsunaPublic: https://github.com/are-dynamic-2022-g4/SimtsunaPublic/)
+Ce répo sera supprimé bientôt.
+
+
 # SimTsuna
 Hugo Pham, Mika Vogel, Amine Cherif, Philippe Gueorguievskii.  
 SCFO 22-1-B
